@@ -5,6 +5,10 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BotonesComponent } from './component/botones/botones.component';
 import { ListadoPersonajesModule } from './listado-personajes/listado-personajes.module';
+import { ComunicacionComponentesModule } from './comunicacion-componentes/comunicacion-componentes.module';
+import { FormularioReactivoModule } from './formulario-reactivo/formulario-reactivo.module';
+
+
 
 @NgModule({
   declarations: [
@@ -16,7 +20,9 @@ import { ListadoPersonajesModule } from './listado-personajes/listado-personajes
     HttpClientModule,
     BrowserModule,
     AppRoutingModule,
-    ListadoPersonajesModule
+    ListadoPersonajesModule,
+    ComunicacionComponentesModule,
+    FormularioReactivoModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
