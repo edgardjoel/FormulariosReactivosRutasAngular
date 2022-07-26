@@ -1,0 +1,38 @@
+.texto-alineado{
+  text-align: center;
+  color:#FDFF8D;
+  font-size: 60px;
+  font-family: 'Asap', sans-serif;
+  
+}
+.introduccion{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button{
+  width: 18%;
+  margin-top: 15px;
+  padding: 20px;
+  border-radius: 15px;
+  font-size: 20px;
+  border: 1px solid #fff;
+  font-family: 'Asap', sans-serif;
+  cursor: pointer;
+}
+.button a{
+  text-decoration: none;
+  font-style: italic;
+  color: #353349;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+ 
+  background: #353349;
+}
+

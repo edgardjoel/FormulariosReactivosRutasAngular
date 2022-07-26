@@ -1,0 +1,19 @@
+section {
+  padding: 15px;
+}
+.title-personaje {
+  text-align: center;
+  font-family: "Asap", sans-serif;
+  font-size: 40px;
+}
+.contendor-tarjetas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  font-family: "Asap", sans-serif;
+}
+
+.contendor-tarjetas section {
+  width: 25%;
+}

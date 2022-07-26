@@ -1,0 +1,16 @@
+<section>
+  <h1 class="title-personaje">Listado de Personajes de Rick and Morty</h1>
+</section>
+<a routerLink=""><</a>
+<div class="contendor-tarjetas">
+  <section *ngFor="let personaje of personajes">
+    <header>
+      <h2> {{personaje.name}}</h2>
+    </header>
+    <img [src]="personaje.image" alt="">
+    <footer>
+      <p>Especie: {{personaje.species}}</p>
+      <p>Genero: {{personaje.gender}}</p>
+    </footer>
+  </section>
+</div>
